@@ -40,7 +40,7 @@ import os
 PORT = int(os.environ.get("PORT", 8000))  # Railway sets PORT automatically; 8000 is the local fallback
 LOG_FILE = "click_log.csv"
 TRACK_PATH = ""          # the path your tracking link points to
-REDIRECT_TARGET = "https://www.tiktok.com/@.marcus_aurelius?_r=1&_t=ZS-97UUv0eKVtc"  # where visitors land after the click
+REDIRECT_TARGET = "https://genius.com/Antony-c-youve-been-trolled-lyrics"  # where visitors land after the click
 
 
 def log_click(visitor_ip, direct_ip, user_agent, path, referer):
